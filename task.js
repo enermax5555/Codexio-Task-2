@@ -2,7 +2,7 @@ let counts = {};
 
 function handleInput() {
   let input = document.getElementById("input-field").value;
-  if (input === "End" || "end") {
+  if (input === "End") {
     calculateMinBalls();
   }
 
